@@ -1,36 +1,47 @@
-# Jekyll-Uno with Projects as Timeline
-A Jekyll Theme, based on the Uno-Theme with a list of projects as Timeline.
+# Marco Scarpelli - Personal Portfolio
 
-## How does is look
-[Demo](https://www.zuehlke.cloud/)
-![Screenshot](screenshot-overview.png)
-![jekyll-theme-desktop](https://user-images.githubusercontent.com/32843441/72224870-5451ff00-357f-11ea-8fc2-bfbd4499bc63.gif)
-![jekyll-theme-mobil](https://user-images.githubusercontent.com/32843441/72224877-6a5fbf80-357f-11ea-920b-dfae72bf2fbe.gif)
+Welcome to my personal website repository! This site showcases my projects, academic work, and professional experience. It is built with **Jekyll** and hosted on **GitHub Pages**.
 
-## Installation/Setup
-1. Download or clone repo `git clone https://github.com/tzuehlke/jekyll-uno-timeline.git`
-2. Enter the folder: `cd jekyll-uno-timeline/`
-3. Build it: `jekyll build`
-4. Start Jekyll server: `jekyll serve`
-5. Configure: `_config.yml`
-   * at least set `font_awesome` or download and add the font in `head.html`
+## 🌐 Live Site
+You can visit my website here:  
+[https://marcoscarpelli.github.io/marco-scarpelli/](https://marcoscarpelli.github.io/marco-scarpelli/)
 
-Access via: [http://localhost:4000/](http://localhost:4000/)
+## 📂 Repository Structure
+jekyll-uno-timeline/
+├── _layouts/       # Jekyll layout templates  
+├── _includes/      # Reusable HTML components  
+├── _sass/          # Sass/SCSS stylesheets  
+├── assets/         # PDF files, images, and other static assets  
+├── js/             # JavaScript files  
+├── css/            # CSS files  
+├── index.md        # Homepage  
+├── cv.md           # Curriculum Vitae page  
+├── contact.md      # Contact page  
+├── _config.yml     # Jekyll configuration  
+├── README.md       # This file  
+└── ...             # Other project files  
 
-## Details/Features/Changes
-* based on the [Uno-Theme](https://github.com/joshgerdes/jekyll-uno), but:
-  * removed everything with posts
-  * `content-wrapper` can be shown or hidden with button
-  * changed all icons to [Font-Awesome](https://fontawesome.com/)
-  * updated google-analytics snipped
-  * added [Meetup-Link](https://www.meetup.com/)
-  * removed RSS
-  * removed Disqus
-  * using a Timeline-Design instead of posts, therefore no pagination anymore
-* using Timeline ([CSS](https://github.com/le4ker/personal-jekyll-theme/blob/master/css/timeline.scss), [HTML](https://github.com/le4ker/personal-jekyll-theme/blob/master/_includes/timeline.html) ) from [{ Personal } Jekyll Theme](https://github.com/le4ker/personal-jekyll-theme) for a list of projects, but:
-  * still with 3 layouts for different screen-width, but without images on small screens
-  * timeline information source is now `_data/projects.yaml`
-  * always using the `timeline-inverted`-class, for text on the right side of the images
-* using [github_api.js](https://github.com/jarrekk/Jalpc/blob/master/static/js/github_api.js) from [Jalpc.](https://github.com/jarrekk/Jalpc), but:
-  * changed the GitHub-URL for using with persons and organisations
-  * added watchers number
+## 💻 Features
+- **Portfolio of University Projects:** Automatic control, Electromagnetism, Analysis 2, Probability & Operations Research.  
+- **Personal Projects:**  
+  - Founder of **Sframe**, a digital solutions company.  
+  - Developed **NFC and QR smart tags** with landing pages, catalogs, social media integration, and appointment dashboards.  
+  - Over 150 active clients.  
+- **Resume Section:** Interactive CV with downloadable PDF versions (EN and IT).  
+- **Built with Jekyll:** Easy to extend and maintain, fully responsive.
+
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend/Automation:** JSON, Google Apps Script  
+- **Programming:** Python, Java, Matlab  
+- **Tools:** Git, GitHub, Linux, VS Code  
+- **Design & Media:** Photoshop, Illustrator, Canva, Premiere Pro  
+
+## 📄 Curriculum Vitae
+- English Version: [CV_EN.pdf](assets/CV_EN.pdf)  
+- Italian Version: [CV_IT.pdf](assets/CV_IT.pdf)  
+
+## 📌 How to Use This Repository
+1. Clone or download the repository:  
+```bash
+git clone https://github.com/Marco71915/marco-scarpelli.git
