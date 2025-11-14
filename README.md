@@ -1,6 +1,6 @@
 # Marco Scarpelli - Personal Portfolio
 
-Welcome to my personal website repository! This site showcases my projects, academic work, and professional experience. It is built with **Jekyll** and hosted on **GitHub Pages**.
+Welcome to my personal website repository! This site showcases my projects, academic work, and professional experience.
 
 ## 🌐 Live Site
 You can visit my website here:  
@@ -45,3 +45,4 @@ jekyll-uno-timeline/
 1. Clone or download the repository:  
 ```bash
 git clone https://github.com/Marco71915/marco-scarpelli.git
+
