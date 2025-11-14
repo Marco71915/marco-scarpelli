@@ -1,22 +1,20 @@
 # Site settings
-title: Thomas Zühlke
+title: Marco Scarpelli
 description: 'Business Card Page'
-url: 'https://www.zuehlke.cloud'
+url: ''
 baseurl: ''
-profilepic: '/images/tzuehlke.jpg'
+profilepic: '/images/marcoscarpelli.jpg'
 bkimage: '/images/bk1.jpg'
-google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+google_analytics:
+font_awesome: 'f12afb976f.js'
 
 author:
-  name: 'Thomas Zühlke'
-  email: thomas@zuehlke.cloud
-  mastodon: tzuehlke@mstdn.social
-  twitter_username: thomzuehlke
-#  facebook_username: joshgerdes
-  github_username:  tzuehlke
-  linkedin_username:  thomas-zühlke-889182165
-  meetup_name: Azure-Meetup-Rostock-MV
+  name: 'Marco Scarpelli'
+  email: marcoscarpelli05@gmail.com
+  github_username: Marco71915
+  linkedin_username: marco-scarpelli-117207358
+  instagram_username: _marcoscarpelli_
+  telegram_username: ssmm_50
 
 # Build settings
 destination: _site
@@ -28,10 +26,9 @@ sass:
     style: compressed
 
 kramdown:
-  # use Github Flavored Markdown
   input: GFM
-  # do not replace newlines by <br>s
   hard_wrap: false
 
 #plugins: ['jekyll-paginate']
 exclude: ['README.md', 'screenshot-overview.png']
+

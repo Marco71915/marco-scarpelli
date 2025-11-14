@@ -1,5 +1,7 @@
 ---
+
 ---
+
 @import "uno";
 @import "tables";
 @import "monokai";
@@ -9,52 +11,198 @@
 
 pre.highlight,
 .highlight pre {
-  padding: 10px;
+padding: 10px;
 }
 
 pre.highlight code,
 .highlight pre code {
-  white-space: pre-wrap;
+white-space: pre-wrap;
 }
 
 .btn,
 .navigation__item a {
-  margin: 5px 0;
-  white-space: nowrap;
+margin: 5px 0;
+white-space: nowrap;
 }
 
 .pagination__page-number {
-  display: inline-block;
-  padding: 10px;
+display: inline-block;
+padding: 10px;
 }
 
 .categories a,
 .tags a {
-  border: 1px solid #e25440;
-  border-radius: 20px;
-  color: #e25440;
-  display: inline-block;
-  font-size: 12px;
-  margin: 5px 0;
-  padding: 5px 10px;
-  text-shadow: none;
-  white-space: nowrap;
+border: 1px solid #e25440;
+border-radius: 20px;
+color: #e25440;
+display: inline-block;
+font-size: 12px;
+margin: 5px 0;
+padding: 5px 10px;
+text-shadow: none;
+white-space: nowrap;
 }
 
 .post-meta__tags {
-  font-size: 12px;
-  padding: 0 5px;
+font-size: 12px;
+padding: 0 5px;
 }
 
 .footer__copyright {
-    margin: 0 20px 10px;
+margin: 0 20px 10px;
 }
 
 .user-image {
-  margin-bottom: 1.2em;
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border: 3px solid #fff;
-  border-radius:100%;
+margin-bottom: 1.2em;
+position: relative;
+width: 200px;
+height: 200px;
+border: 3px solid #fff;
+border-radius: 100%;
+}
+
+/* ==========================================================
+Projects Page Styles
+========================================================== */
+
+.section.projects,
+.cv-section,
+.contact-section {
+max-width: 900px;
+margin: 0 auto;
+padding: 2rem;
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.section-title {
+text-align: center;
+font-size: 2rem;
+margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+text-align: center;
+color: #666;
+margin-bottom: 2rem;
+font-size: 1.1rem;
+}
+
+.timeline {
+margin-top: 1rem;
+position: relative;
+padding-left: 2rem;
+}
+
+.timeline-item {
+margin-bottom: 1.5rem;
+position: relative;
+}
+
+.timeline-icon {
+position: absolute;
+left: 0;
+top: 5px;
+color: #0078d7;
+font-size: 1.3rem;
+}
+
+.timeline-content {
+margin-left: 2rem;
+background: #fff;
+border-radius: 10px;
+padding: 1rem;
+box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.timeline-content h3 {
+margin: 0;
+font-size: 1.2rem;
+color: #333;
+}
+
+.timeline-date {
+font-size: 0.9rem;
+color: #777;
+display: block;
+margin-bottom: 0.5rem;
+}
+
+.timeline-content img {
+width: 100%;
+max-width: 500px;
+border-radius: 10px;
+margin: 10px 0;
+}
+
+.btn {
+display: inline-block;
+margin-top: 0.5rem;
+background: #0078d7;
+color: #fff !important;
+padding: 0.3rem 0.7rem;
+border-radius: 5px;
+text-decoration: none;
+font-size: 0.9rem;
+transition: background 0.3s ease;
+}
+
+.btn:hover {
+background: #005fa3;
+}
+
+/* ==========================================================
+Contact Page Styles (aligned with Projects/CV)
+========================================================== */
+
+.contact-section .contact-info p {
+margin-bottom: 10px;
+font-size: 1rem;
+}
+
+.contact-section .contact-info a {
+color: #0078d7;
+text-decoration: none;
+}
+
+.contact-section .contact-info a:hover {
+text-decoration: underline;
+}
+
+.contact-section .contact-form label {
+display: block;
+margin-top: 1rem;
+margin-bottom: 0.3rem;
+font-weight: bold;
+}
+
+.contact-section .contact-form input,
+.contact-section .contact-form textarea {
+width: 100%;
+padding: 0.5rem;
+border-radius: 5px;
+border: 1px solid #ccc;
+box-sizing: border-box;
+margin-bottom: 1rem;
+font-size: 1rem;
+}
+
+.contact-section .contact-form textarea {
+resize: vertical;
+}
+
+.contact-section .contact-form .btn {
+display: inline-block;
+background: #0078d7;
+color: #fff !important;
+padding: 0.3rem 0.7rem;
+border-radius: 5px;
+text-decoration: none;
+font-size: 0.9rem;
+transition: background 0.3s ease;
+}
+
+.contact-section .contact-form .btn:hover {
+background: #005fa3;
 }
